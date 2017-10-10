@@ -18,8 +18,8 @@ public class Main {
         }
         System.out.println(lista_num.contains(numero));
         long acaba = System.currentTimeMillis();
-        
-        System.out.println("Ha tardado " + (empieza-acaba) + " milisegundos en encontrar el numero");
+
+        System.out.println("Ha tardado " + (empieza-acaba) + " en encontrar el numero");
 
     }
 }
