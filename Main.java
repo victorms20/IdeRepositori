@@ -12,7 +12,7 @@ public class Main {
         List<Integer> lista_num = new ArrayList<>();
 
         for (int i = 0; i < 500000; i++) {
-            int num_ale = aleatorio.nextInt(100000);
+            int num_ale = aleatorio.nextInt(700000);
             lista_num.add(num_ale);
         }
 
