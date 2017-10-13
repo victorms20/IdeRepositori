@@ -6,6 +6,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
+        long empieza = System.currentTimeMillis();
         Random aleatorio = new Random();
         int numero = 335;
 
@@ -15,8 +16,10 @@ public class Main {
             int num_ale = aleatorio.nextInt(700000);
             lista_num.add(num_ale);
         }
-
         System.out.println(lista_num.contains(numero));
+        long acaba = System.currentTimeMillis();
+
+        System.out.println("Ha tardado " + (empieza-acaba) + " en encontrar el numero");
 
     }
 }
